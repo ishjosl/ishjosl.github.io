@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joslin Ishimwe | Staff ML Engineer</title>
+    <meta name="description" content="Staff-Level ML Engineer building HIPAA/FDA-compliant AI systems for biotech applications">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="assets/resume.pdf" class="btn">Download Resume</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header>
+        <div class="header-content">
+            <h1>JOSLIN ISHIMWE</h1>
+            <h2>Staff-Level Machine Learning Engineer</h2>
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> (531) 739-2469</span>
+                <span><i class="fas fa-envelope"></i> ishijoslin@gmail.com</span>
+            </div>
+            <div class="social-links">
+                <a href="linkedin.com/in/joslin-ishimwe"><i class="fab fa-linkedin"></i></a>
+                <a href="github.com/ishjosl"><i class="fab fa-github"></i></a>
+                <a href="joslin-ai.com"><i class="fas fa-globe"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Summary Section -->
+    <section id="summary">
+        <div class="section-header">
+            <h2>Professional Summary</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="content">
+            <p>Staff-Level ML Engineer building <strong>HIPAA/FDA-compliant</strong> AI for biotech giants (Bayer, Corteva). Specialized in:</p>
+            <ul class="expertise-list">
+                <li><i class="fas fa-check-circle"></i> <strong>Distributed ML</strong>: 40% cost reduction @ 99% accuracy (PruneFL, Spark)</li>
+                <li><i class="fas fa-check-circle"></i> <strong>Genomic Discovery</strong>: 3 patent-pending biomarkers from 20K RNA-Seq features</li>
+                <li><i class="fas fa-check-circle"></i> <strong>Regulated Deployment</strong>: 100% pass rate for FDA 21 CFR §11.300 audits</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="section-header">
+            <h2>Professional Experience</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="timeline">
+            <div class="entry">
+                <div class="entry-header">
+                    <h3>Machine Learning Researcher</h3>
+                    <div class="company">University of Nebraska–Lincoln | 2024–Present</div>
+                </div>
+                <ul>
+                    <li><strong>Prevented model poisoning attacks</strong> via federated K-anonymity layer → secured 10TB/day TCGA data processing</li>
+                    <li><strong>Led 3-researcher team</strong> developing PyTorch CNNs → boosted TEM accuracy 40pp (24%→64%) saving 200 hrs/month</li>
+                    <li><strong>Submitted to Nature Comms</strong>: "SHAP-driven biomarker discovery in pancreatic RNA-Seq data" (Q1'25)</li>
+                </ul>
+            </div>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <h3>Research Data Scientist</h3>
+                    <div class="company">Elemental Enzymes (Corteva Partner) | 2023–2024</div>
+                </div>
+                <ul>
+                    <li><strong>Automated FDA 21 CFR §11.300 compliance</strong> for 12 agrochemicals → 0 audit findings ($500K risk averted)</li>
+                    <li><strong>Designed real-time dashboards</strong> (Plotly/Dash) → 92% faster decisions (5d→4h) unlocking $2M product launch</li>
+                    <li><strong>Trained 4 regulatory analysts</strong> on ML validation protocols → adopted across Corteva QC labs</li>
+                </ul>
+            </div>
+            
+            <div class="entry">
+                <div class="entry-header">
+                    <h3>MLOps Engineer</h3>
+                    <div class="company">Sand Technologies (AWS/Siemens Partner) | 2024</div>
+                </div>
+                <ul>
+                    <li><strong>Architected Kubernetes auto-scaling</strong> → $85K cloud savings on 1M+ daily IoT inferences</li>
+                    <li><strong>Enforced 99.99% API uptime</strong> via chaos-engineered CI/CD → zero Sev1 incidents in 120 days</li>
+                    <li><strong>Mentored 2 junior engineers</strong> on Spark optimization → 30% faster ETL pipelines</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-header">
+            <h2>Technical Projects</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>FederatedGenomics</h3>
+                <div class="tech-stack">PyTorch | Spark | TF Privacy</div>
+                <ul>
+                    <li>Reduced FL comms cost 40% ($28K/year) via PruneFL → 98% accuracy on 801-patient dataset</li>
+                    <li>Achieved HIPAA-compliance via ε=0.3 DP → 60% lower leakage risk vs. Owkin baseline</li>
+                </ul>
+                <a href="github.com/ishjosl/fed-gen" class="btn"><i class="fab fa-github"></i> View on GitHub</a>
+            </div>
+            
+            <div class="project-card">
+                <h3>VesicleSegNet</h3>
+                <div class="tech-stack">PyTorch | U-Net | SageMaker</div>
+                <ul>
+                    <li>SOTA 87% IoU for TEM segmentation → productionized at 50ms latency (1.2M reqs/day)</li>
+                    <li>Enabled 3x faster drug discovery via integrated Grad-CAM interpretability</li>
+                </ul>
+                <a href="github.com/ishjosl/vesiclenet" class="btn"><i class="fab fa-github"></i> View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-header">
+            <h2>Technical Skills</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3><i class="fas fa-brain"></i> Machine Learning</h3>
+                <ul>
+                    <li>PyTorch</li>
+                    <li>TensorFlow</li>
+                    <li>Spark MLlib</li>
+                    <li>Hyperparameter Optimization</li>
+                    <li>Federated Learning</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3><i class="fas fa-cloud"></i> Cloud & Infrastructure</h3>
+                <ul>
+                    <li>AWS (SageMaker, EMR)</li>
+                    <li>Kubernetes</li>
+                    <li>Docker</li>
+                    <li>Serverless</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3><i class="fas fa-shield-alt"></i> Compliance</h3>
+                <ul>
+                    <li>FDA 21 CFR Part 11</li>
+                    <li>HIPAA</li>
+                    <li>CLIA</li>
+                    <li>GDPR</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-header">
+            <h2>Contact</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+            <p>Currently open to new opportunities in:</p>
+            <ul>
+                <li>ML Engineering</li>
+                <li>MLOps Architecture</li>
+                <li>Regulatory AI Systems</li>
+                <li>Biotech AI Research</li>
+            </ul>
+            
+            <div class="contact-actions">
+                <a href="mailto:ishijoslin@gmail.com" class="btn contact-btn">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
+                <a href="https://calendly.com/joslin-ai" class="btn contact-btn">
+                    <i class="fas fa-calendar-check"></i> Schedule Call
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Joslin Ishimwe | Designed for Data Science Opportunities</p>
+        <p>Built with HTML, CSS, and JavaScript | Deployed via GitHub Pages</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
